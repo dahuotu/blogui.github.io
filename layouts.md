@@ -4,7 +4,7 @@
 
 ![单列布局](assets/layout-1.png)
 
-> 包含头部、中间内容、底部，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-1-1.html)
+> 包含头部、中间内容、底部，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-1-1.html)
 
 ```html
 <div class="wrap">
@@ -28,7 +28,7 @@
 
 #### 左右平分
 
-> 左右平分布局，双列布局左右平分，内容部分左右各占一半。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-2-1.html)
+> 左右平分布局，双列布局左右平分，内容部分左右各占一半。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-2-1.html)
 
 ![双列布局左右平分](assets/layout-2.png)
 
@@ -53,7 +53,7 @@
 
 #### 左少右多
 
-> 左少右多布局，左少右多布局，内容部分，左边少，右边多。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-2-2.html)
+> 左少右多布局，左少右多布局，内容部分，左边少，右边多。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-2-2.html)
 
 ![左少右多布局](assets/layout-3.png)
 
@@ -79,7 +79,7 @@
 
 #### 右多左少
 
-> 左多右少布局，左多右少布局，内容部分，左边多，右边少。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-2-3.html)
+> 左多右少布局，左多右少布局，内容部分，左边多，右边少。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-2-3.html)
 
 ![双列布局左9右3](assets/layout-4.jpg)
 
@@ -107,7 +107,7 @@
 
 #### 三列平分
 
-> 三列布局三列平分含头部、底部。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-3-1.html)
+> 三列布局三列平分含头部、底部。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-3-1.html)
 
 ![三列布局三列平分](assets/layout-5.jpg)
 
@@ -134,7 +134,7 @@
 
 #### 三列布局有脚无头
 
-> 三列布局左少中多右少含底部、无头部。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-3-2.html)
+> 三列布局左少中多右少含底部、无头部。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-3-2.html)
 
 ![三列布局左少中多右少](assets/layout-6.jpg)
 
@@ -158,7 +158,7 @@
 
 #### 三列布局无头无脚
 
-> 左少中多含头尾右少平分布局无头部底部，头部底部可以根据需要在内容部分自行实现，这里只提供布局说明。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-3-3.html)
+> 左少中多含头尾右少平分布局无头部底部，头部底部可以根据需要在内容部分自行实现，这里只提供布局说明。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-3-3.html)
 
 ![三列布局无头无脚](assets/layout-7.jpg)
 
@@ -179,7 +179,7 @@
 
 ### 瀑布流布局
 
-瀑布流布局，即常用的瀑布流布局，这里只提供常见的4列瀑布流。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-4-1.html)
+瀑布流布局，即常用的瀑布流布局，这里只提供常见的4列瀑布流。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-4-1.html)
 
 ![瀑布流布局](assets/layout-8.jpg)
 
@@ -283,7 +283,7 @@
 
 ##### 简单使用
 
-> 只展示最基本的使用示例。[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-grid.html)
+> 只展示最基本的使用示例。[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-grid.html)
 
 ```html
 <body>
@@ -303,7 +303,7 @@
 
 ##### 所有网格布局
 
-> 演示包含所有网格布局（包含不同分辨率下的呈现效果）。[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-grid-base.html)
+> 演示包含所有网格布局（包含不同分辨率下的呈现效果）。[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-grid-base.html)
 
 ```html
 <body>
@@ -383,7 +383,7 @@
 | 显示 | `.show-xs` | `.show-sm` | `.show-md` | `.show-lg` | `.show-xl` | `.show-xxl` |
 | 隐藏 | `.hide-xs` | `.hide-sm` | `.hide-md` | `.hide-lg` | `.hide-xl` | `.hide-xxl` |
 
-> 只需要将对应的样式添加到需要使用的元素 `class` 属性上即可。[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/layout-grid-display.html)
+> 只需要将对应的样式添加到需要使用的元素 `class` 属性上即可。[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/layout-grid-display.html)
 
 ```html
 <body>

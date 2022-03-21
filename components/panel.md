@@ -8,7 +8,7 @@
 
 ### 标准面板
 
-> 标准面板（含有头部、含有内容部分）。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-panel-1.html)
+> 标准面板（含有头部、含有内容部分）。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-panel-1.html)
 
 ```html
 <div class="panel">
@@ -23,7 +23,7 @@
 
 ### 只有头部
 
-> 只有头部（只含有头部，一般主要作为特殊的醒目提示用）。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-panel-2.html)
+> 只有头部（只含有头部，一般主要作为特殊的醒目提示用）。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-panel-2.html)
 
 ```html
 <div class="panel">
@@ -35,7 +35,7 @@
 
 ### 只有内容
 
-> 只有内容（只含有内容部分，多数情况下只作为胶囊内容使用）。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-panel-3.html)
+> 只有内容（只含有内容部分，多数情况下只作为胶囊内容使用）。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-panel-3.html)
 
 ```html
 <div class="panel">

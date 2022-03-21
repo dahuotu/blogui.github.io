@@ -2,7 +2,7 @@
 
 ### 水平选项卡
 
-> 在博客系统中最常见的选项卡为水平选项卡，这里只提最基础的选项卡；因为在博客系统中水平选项卡一般用在侧边栏文章排行分类中。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-tabs.html)
+> 在博客系统中最常见的选项卡为水平选项卡，这里只提最基础的选项卡；因为在博客系统中水平选项卡一般用在侧边栏文章排行分类中。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-tabs.html)
 
 **注意：**多个选项卡不能出现重复的id，否则切换效果失效，这是jQuery常识。
 
@@ -24,7 +24,7 @@
 
 ### 垂直选项卡
 
-> 垂直选项卡一般多用在影视类博客系统中，主要是方便分类展示内容。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-tabs-y.html)
+> 垂直选项卡一般多用在影视类博客系统中，主要是方便分类展示内容。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-tabs-y.html)
 
 **注意：**多个选项卡不能出现重复的id，否则切换效果失效，这是jQuery常识。
 

@@ -1,6 +1,6 @@
 ### 文章列表
 
-> 这里的文章列表一般特指博客中的博文列表，一般包含文章封面、文章标题、文章简介以及发布时间、评论数量、浏览数量等。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-article-list.html)
+> 这里的文章列表一般特指博客中的博文列表，一般包含文章封面、文章标题、文章简介以及发布时间、评论数量、浏览数量等。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-article-list.html)
 
 ```html
 <ul class="article-list">
@@ -30,7 +30,7 @@
 
 ### 文章详情
 
-> 使用文章详情时，只要给div标签添加 `.article-detail` 样式即可。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-article-detail.html)
+> 使用文章详情时，只要给div标签添加 `.article-detail` 样式即可。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-article-detail.html)
 
 ```html
 <div class="article-detail">

@@ -1,6 +1,6 @@
 ### 默认模板
 
-仅支持在现代浏览器中使用的页面模板，在 IE11 及以下显示效果不佳。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/page-normal.html)
+仅支持在现代浏览器中使用的页面模板，在 IE11 及以下显示效果不佳。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/page-normal.html)
 
 > 支持浏览器如下
 
@@ -66,7 +66,7 @@
 
 考虑到博客系统主要以内容为主，对 SEO 的要求较高，还是决定做到最低兼容 IE8，这是一个漫长的测试及调整过程，毕竟国内目前支持 IE8 的框架仅仅只有[拼图响应式前端框架](https://www.pintuer.com)了。
 
-具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/page-ie8.html)
+具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/page-ie8.html)
 
 > 支持浏览器如下
 

@@ -2,7 +2,7 @@
 
 ### 评论列表
 
-> 这里展示的评论列表主要包含主评论和回复评论，默认主评论使用`item`样式控制，回复评论使用`li`样式控制。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-comments-list.html)
+> 这里展示的评论列表主要包含主评论和回复评论，默认主评论使用`item`样式控制，回复评论使用`li`样式控制。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-comments-list.html)
 
 ```html
 <div class="comments-list">
@@ -83,7 +83,7 @@
 
 ### 评论框
 
-> 发布评论，默认最多可以评论200字符并且BlogUi评论框会自动统计评论字数。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-comments-box.html)
+> 发布评论，默认最多可以评论200字符并且BlogUi评论框会自动统计评论字数。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-comments-box.html)
 
 ```html
 <form>

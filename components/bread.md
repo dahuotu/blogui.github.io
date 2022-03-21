@@ -1,6 +1,6 @@
 ?> 面包屑导航在博客系统中主要是用来显示当前页面所在的位置（路径），是不同于普通菜单导航的路径导航。
 
-> 一般面包屑导航，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-bread.html)
+> 一般面包屑导航，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-bread.html)
 
 ```html
 <ul class="bread">
@@ -14,7 +14,7 @@
 </ul>
 ```
 
-> 带背景色的面包屑导航，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-bread.html)
+> 带背景色的面包屑导航，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-bread.html)
 
 ```html
 <ul class="bread bg-main">

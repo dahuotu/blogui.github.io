@@ -8,7 +8,7 @@
 
 ### 宽屏页宽
 
-**注意：**宽屏页宽就是默认的页宽，在不同浏览器分辨率下页宽会适应不同的分辨率，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/wrap.html)。
+**注意：**宽屏页宽就是默认的页宽，在不同浏览器分辨率下页宽会适应不同的分辨率，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/wrap.html)。
 
 以下为对应分辨率下页宽的尺寸：
 
@@ -30,7 +30,7 @@
 
 ### 窄屏页宽
 
-有时候博客需要做窄屏主题（不是所有好看的主题都是宽屏，窄屏主题一样像花儿一样美），这个时候就需要设置最小页宽。当然在不同浏览器分辨率下页宽也会适应不同的宽度，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/wrap-min.html)。
+有时候博客需要做窄屏主题（不是所有好看的主题都是宽屏，窄屏主题一样像花儿一样美），这个时候就需要设置最小页宽。当然在不同浏览器分辨率下页宽也会适应不同的宽度，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/wrap-min.html)。
 
 以下为对应分辨率下 `.wrap-min` 的宽度：
 
@@ -54,7 +54,7 @@
 
 在不同浏览器分辨率下 `.wrap-max` 不会适应不同的分辨率，只会以全屏方式布局（也就是 100%页宽），在实际使用过程中 100%布局是常态，因为需要全屏容纳，例如一些影视博客，一些资源分享类的博客都以全屏页宽为主，所以这个时候全屏页宽是必不可少的。
 
-具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/wrap-max.html)。
+具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/wrap-max.html)。
 
 | 分辨率 | 页宽 |
 | ------ | ---- |

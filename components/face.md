@@ -4,7 +4,7 @@
 
 > 方形头像为默认头像，使用 `.face` 样式添加到图片标签上即可。头像/LOGO大小由 `<img />` 标签的 `width` 和 `height` 控制，BlogUi这里不再做限制。如果需要给头像增加边框，只需要在 `.face` 样式后添加 `空格` + `.face-border` 样式即可。
 
-**注意：**这里的图片无论是否为正方形、长方形、圆形， `.face` 都会做处理，不会出现拉升，变形等情况。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-face.html)
+**注意：**这里的图片无论是否为正方形、长方形、圆形， `.face` 都会做处理，不会出现拉升，变形等情况。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-face.html)
 
 ```html
 <!--50像素大小的头像-->
@@ -19,7 +19,7 @@
 
 > 圆形头像，使用 `.face-round` 样式添加到图片标签上即可。头像/LOGO大小同样是由 `<img />` 标签的 `width` 和 `height` 控制，BlogUi这里不再做限制。如果需要给头像增加边框，只需要在 `.face` 样式后添加 `空格` + `.face-border` 样式即可。
 
-**注意：**这里的图片无论是否为正方形、长方形、圆形， `.face` 都会做处理，不会出现拉升，变形等情况。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-face.html)
+**注意：**这里的图片无论是否为正方形、长方形、圆形， `.face` 都会做处理，不会出现拉升，变形等情况。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-face.html)
 
 ```html
 <!--50像素大小的头像-->

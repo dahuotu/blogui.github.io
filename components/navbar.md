@@ -1,6 +1,6 @@
 ?> 这里提供的导航为常见的响应式导航，在博客中常见的两种方式：一种以站点名文字作为LOGO的导航，一种最常见的LOGO导航，无站点名。
 
-> 文字标题导航，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-navbar-1.html)
+> 文字标题导航，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-navbar-1.html)
 
 ```html
 <div class="navbar">
@@ -45,7 +45,7 @@
 </div>
 ```
 
-> 带有LOGO的导航，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-navbar-2.html)
+> 带有LOGO的导航，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-navbar-2.html)
 
 ```html
 <div class="navbar">

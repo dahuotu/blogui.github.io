@@ -4,7 +4,7 @@
 
 ### 单行公告
 
-> 单行公告即只有一行文字的简短公告，也是最常见的公告形式。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-notice.html)
+> 单行公告即只有一行文字的简短公告，也是最常见的公告形式。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-notice.html)
 
 ```html
 <div class="notice">
@@ -17,7 +17,7 @@
 
 ### 多行公告
 
-> 多行公告，超过2行自动省略，一般用于公告文字较多的情况下。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-notice-more.html)
+> 多行公告，超过2行自动省略，一般用于公告文字较多的情况下。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-notice-more.html)
 
 ```html
 <div class="notice">
@@ -34,7 +34,7 @@
 
 #### 垂直滚动
 
-> 垂直滚动即上下滚动，列表内的文字可以长度超过后会自行省略。使用 `.roll` 样式开启滚动效果，使用 `.list-y` 样式开启垂直滚动。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-notice-list.html)
+> 垂直滚动即上下滚动，列表内的文字可以长度超过后会自行省略。使用 `.roll` 样式开启滚动效果，使用 `.list-y` 样式开启垂直滚动。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-notice-list.html)
 
 ```html
 <div class="notice">
@@ -62,7 +62,7 @@
 
 #### 水平滚动
 
-> 水平滚动即向左滚动，列表内的文字可以长度超过后会自行省略。使用 `.roll` 样式开启滚动效果，使用 `.list-x` 样式开启水平滚动。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-notice-list.html)
+> 水平滚动即向左滚动，列表内的文字可以长度超过后会自行省略。使用 `.roll` 样式开启滚动效果，使用 `.list-x` 样式开启水平滚动。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-notice-list.html)
 
 ```html
 <div class="notice">

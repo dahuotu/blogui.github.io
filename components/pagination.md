@@ -2,7 +2,7 @@
 
 ### 常见分页
 
-> 一般常见的分页，主要由上一页、页码、更多、下一页组成；上一页和下一页如果不想要图标方式，可以去掉 `iconfont icon-*` 的 `class` 属性，改成中文即可。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-pagination.html)
+> 一般常见的分页，主要由上一页、页码、更多、下一页组成；上一页和下一页如果不想要图标方式，可以去掉 `iconfont icon-*` 的 `class` 属性，改成中文即可。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-pagination.html)
 
 ```html
 <ul class="pagination">
@@ -35,7 +35,7 @@
 
 ### 常见翻页
 
-> 箭头形式的常见翻页。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-pagination.html)
+> 箭头形式的常见翻页。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-pagination.html)
 
 ```html
 <ul class="pagination">
@@ -63,7 +63,7 @@
 
 ### 组合使用
 
-> 常见分页组合形式的使用。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-pagination.html)
+> 常见分页组合形式的使用。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-pagination.html)
 
 ```html
 <ul class="pagination pagination-group">
@@ -109,7 +109,7 @@
 
 ### 颜色大小
 
-> 默认分页尺寸。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-pagination.html)
+> 默认分页尺寸。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-pagination.html)
 
 ```html
 <ul class="pagination">

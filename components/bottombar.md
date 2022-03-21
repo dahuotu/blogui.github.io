@@ -8,7 +8,7 @@
 
 #### 默认底部条
 
-> 默认底部条即默认高度的底部条，调用 `.bottombar` 样式即可呈现。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-bottombar.html)
+> 默认底部条即默认高度的底部条，调用 `.bottombar` 样式即可呈现。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-bottombar.html)
 
 ```html
 <div class="bottombar">...</div>
@@ -16,7 +16,7 @@
 
 #### 大底部条
 
-> 大底部条跟默认底部条不同的是大底部条高度更大，底部条会根据底部条中的内容高度改变。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-bottombar-max.html)
+> 大底部条跟默认底部条不同的是大底部条高度更大，底部条会根据底部条中的内容高度改变。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-bottombar-max.html)
 
 ```html
 <div class="bottombar-max">...</div>
@@ -24,7 +24,7 @@
 
 #### 浮动认底部条
 
-> 浮动底部条顾名思义就是可以浮动的底部条，只需要在底部条加上`.fixed-bottom`样式即可。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-bottombar-fixed.html)
+> 浮动底部条顾名思义就是可以浮动的底部条，只需要在底部条加上`.fixed-bottom`样式即可。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-bottombar-fixed.html)
 
 ```html
 <div class="bottombar fixed-bottom">...</div>

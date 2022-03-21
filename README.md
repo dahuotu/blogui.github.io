@@ -28,7 +28,7 @@ docsify serve
 
 ```
 
-通过[http://localhost:3000/](http://localhost:3000/)来访问你的文档站点
+通过[https://www.blogui.cn/](https://www.blogui.cn/)来访问你的文档站点
 
 #### 说明
 

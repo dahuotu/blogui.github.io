@@ -2,7 +2,7 @@
 
 ### 普通按钮
 
-> 纯文字的普通按钮。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-button.html)
+> 纯文字的普通按钮。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-button.html)
 
 ```html
 <button class="button">普通按钮</button>
@@ -10,7 +10,7 @@
 
 ### 图标按钮
 
-> 按钮上带有图标的按钮。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-button.html)
+> 按钮上带有图标的按钮。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-button.html)
 
 ```html
 <button class="button"><i class="icon-search"></i>搜索</button>
@@ -18,7 +18,7 @@
 
 ### 功能按钮
 
-功能按钮即博客中最常见的功能类型的按钮，这里只提供最常见和最基础的按钮（下载、复制、点赞、分享、赞赏、联系）。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-button.html)
+功能按钮即博客中最常见的功能类型的按钮，这里只提供最常见和最基础的按钮（下载、复制、点赞、分享、赞赏、联系）。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-button.html)
 
 > 下载按钮
 
@@ -58,7 +58,7 @@
 
 ### 按钮尺寸
 
-按钮的尺寸一般分为特小、普通、超大、自适应这4种，合理的运用会给博客页面增添几分色彩。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-button.html)
+按钮的尺寸一般分为特小、普通、超大、自适应这4种，合理的运用会给博客页面增添几分色彩。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-button.html)
 
 > 特小按钮
 
@@ -86,7 +86,7 @@
 
 ### 按钮状态
 
-按钮的一般状态主要分两种，启用状态和禁用状态，默认启用状态，特定条件下才会使用禁用状态，即禁止点击操作。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-button.html)
+按钮的一般状态主要分两种，启用状态和禁用状态，默认启用状态，特定条件下才会使用禁用状态，即禁止点击操作。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-button.html)
 
 > 禁用状态，使用button自带的 `disabled` 属性即可。
 

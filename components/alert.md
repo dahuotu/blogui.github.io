@@ -6,7 +6,7 @@
 
 #### 标题提示
 
-> 用标题的方式提示，一般在博客系统中主要是用来分割内容和列表的，比如，上面标题提示，下面就是文章列表，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-title-tips.html)
+> 用标题的方式提示，一般在博客系统中主要是用来分割内容和列表的，比如，上面标题提示，下面就是文章列表，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-title-tips.html)
 
 ```html
 <div class="title-tips"><span>标题</span></div>
@@ -18,7 +18,7 @@
 
 #### 成功提示
 
-> 默认成功提示，无强提示文字，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-alert-1.html)
+> 默认成功提示，无强提示文字，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-alert-1.html)
 
 ```html
 <div class="alert-success">
@@ -26,7 +26,7 @@
 </div>
 ```
 
-> 带有强提示的成功提示，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-alert-2.html)
+> 带有强提示的成功提示，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-alert-2.html)
 
 ```html
 <div class="alert-success">
@@ -39,7 +39,7 @@
 
 #### 失败提示
 
-> 默认失败提示，无强提示文字，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-alert-3.html)
+> 默认失败提示，无强提示文字，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-alert-3.html)
 
 ```html
 <div class="alert-error">
@@ -47,7 +47,7 @@
 </div>
 ```
 
-> 带有强提示文字的失败提示，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-alert-4.html)
+> 带有强提示文字的失败提示，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-alert-4.html)
 
 ```html
 <div class="alert-error">

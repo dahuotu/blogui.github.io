@@ -4,7 +4,7 @@
 
 #### 普通列表
 
-> 普通列表即一般文字列表，默认列表无序号，无圆点；在 `ul` 标签添加 `list` 样式即可。[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-list.html)
+> 普通列表即一般文字列表，默认列表无序号，无圆点；在 `ul` 标签添加 `list` 样式即可。[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-list.html)
 
 ```html
 <ul class="list">
@@ -31,7 +31,7 @@
 
 #### 圆点列表
 
-> 圆点列表即带圆点的特殊文字列表，在 `ul` 标签添加 `list-dot` 样式即可。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-list.html)
+> 圆点列表即带圆点的特殊文字列表，在 `ul` 标签添加 `list-dot` 样式即可。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-list.html)
 
 ```html
 <ul class="list-dot">
@@ -58,7 +58,7 @@
 
 #### 数字列表
 
-> 数字列表即数字序号的特殊文字列表，在 `ol` 标签添加 `list-num` 样式即可。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-list.html)
+> 数字列表即数字序号的特殊文字列表，在 `ol` 标签添加 `list-num` 样式即可。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-list.html)
 
 ```html
 <!--切记这里要使用ol标签,不是使用ul标签。-->
@@ -90,7 +90,7 @@
 
 #### 普通标签
 
-> 普通标签即单独使用的标签，博客系统中实际使用的标签是不具备关闭这类属性的，使用时注意区分。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-tag.html)
+> 普通标签即单独使用的标签，博客系统中实际使用的标签是不具备关闭这类属性的，使用时注意区分。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-tag.html)
 
 ```html
 <h2>普通标签</h2>
@@ -109,7 +109,7 @@
 
 #### 列表标签
 
-> 列表标签在博客系统中是必备的内容，主要用来展示文章标签分类，一般是放置在博客侧边栏中。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-tag-list.html)
+> 列表标签在博客系统中是必备的内容，主要用来展示文章标签分类，一般是放置在博客侧边栏中。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-tag-list.html)
 
 **注意：**在使用列表标签时一定要加 `<div class="clear"></div>` 来结束，此处是为了清除浮动，列表标签会根据父容器宽度自行换行，列表标签一般默认为胶囊标签（也就是圆角标签）。
 

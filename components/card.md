@@ -2,7 +2,7 @@
 
 ### 一般卡片
 
-> 一般常用的卡片使用，具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-card-1.html)
+> 一般常用的卡片使用，具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-card-1.html)
 
 <!-- tabs:start -->
 
@@ -44,7 +44,7 @@
 
 ### 图片卡片
 
-> 图片卡片在瀑布流图片类博客系统中比较常见。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-card-2.html)
+> 图片卡片在瀑布流图片类博客系统中比较常见。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-card-2.html)
 
 <!-- tabs:start -->
 
@@ -117,7 +117,7 @@
 
 ### 板块卡片
 
-> 一般用在博客板块划分，引导用户浏览分类内容时会使用到板块卡片。具体示例：[查看示例](http://localhost:3000/design/view.html?pageurl=http://localhost:3000/examples/component-card-3.html)
+> 一般用在博客板块划分，引导用户浏览分类内容时会使用到板块卡片。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-card-3.html)
 
 <!-- tabs:start -->
 
