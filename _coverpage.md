@@ -1,4 +1,4 @@
-![BlogUi](../assets/logo.png)
+![BlogUi](assets/logo.png)
 
 # BlogUi
 
