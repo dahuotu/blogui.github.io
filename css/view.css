@@ -98,8 +98,8 @@ body {
 	background-size: cover;
 	z-index: 2;
 	position: relative;
-	overflow-y: scroll !important;
 	-webkit-overflow-scrolling: touch !important;
+	margin: 20px 0;
 }
 
 .view .xxl iframe {
@@ -107,7 +107,6 @@ body {
 	height: 970px;
 	overflow: hidden;
 	margin-top: -10px;
-	margin-left: 18px;
 }
 
 .view .xl {
@@ -116,15 +115,14 @@ body {
 	background-size: 1484px 862px;
 	z-index: 2;
 	position: relative;
-	overflow-y: scroll !important;
 	-webkit-overflow-scrolling: touch !important;
+	margin: 20px 0;
 }
 
 .view .xl iframe {
 	max-width: 1140px;
 	height: 712px;
 	overflow: hidden;
-	margin-left: 18px;
 	margin-top: -50px;
 }
 
@@ -134,15 +132,14 @@ body {
 	background-size: 1244px 848px;
 	z-index: 2;
 	position: relative;
-	overflow-y: scroll !important;
 	-webkit-overflow-scrolling: touch !important;
+	margin: 20px 0;
 }
 
 .view .lg iframe {
 	max-width: 1024px;
 	height: 768px;
 	overflow: hidden;
-	margin-left: 18px;
 }
 
 .view .md {
@@ -151,15 +148,14 @@ body {
 	background-size: 848px 1244px;
 	z-index: 2;
 	position: relative;
-	overflow-y: scroll !important;
 	-webkit-overflow-scrolling: touch !important;
+	margin: 20px 0;
 }
 
 .view .md iframe {
 	max-width: 768px;
 	height: 1024px;
 	overflow: hidden;
-	margin-left: 18px;
 }
 
 .view .sm {
@@ -168,15 +164,14 @@ body {
 	background-size: 847px 415px;
 	z-index: 2;
 	position: relative;
-	overflow-y: scroll !important;
 	-webkit-overflow-scrolling: touch !important;
+	margin: 20px 0;
 }
 
 .view .sm iframe {
 	max-width: 667px;
 	height: 375px;
 	overflow: hidden;
-	margin-left: 18px;
 }
 
 .view .xs {
@@ -185,13 +180,12 @@ body {
 	background-size: 454px 916px;
 	z-index: 2;
 	position: relative;
-	overflow-y: scroll !important;
 	-webkit-overflow-scrolling: touch !important;
+	margin: 20px 0;
 }
 
 .view .xs iframe {
 	max-width: 414px;
 	height: 736px;
 	overflow: hidden;
-	margin-left: 18px;
 }

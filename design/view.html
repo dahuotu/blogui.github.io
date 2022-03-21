@@ -1,94 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- 页面编码 -->
+    <meta charset="utf-8" />
+    <!-- 移动设备优先 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 兼容Edge模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 极速模式 -->
+    <meta name="renderer" content="webkit" />
+    <!-- 标题 -->
+    <title>BlogUi预览工具</title>
+    <!-- 关键字 -->
+    <meta name="keywords" content="BlogUi,BlogUi预览工具" />
+    <!-- 描述 -->
+    <meta name="description" content="BlogUi预览工具" />
+    <!-- 作者 -->
+    <meta name="author" content="大火兔" />
+    <!-- 版权 -->
+    <meta name="copyright" content="版权所有 BlogUi All Rights Reserved" />
+    <!-- 搜索引擎索引向导 -->
+    <meta name="robots" content="all" />
+    <!-- 图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <!-- 引入BlogUi.less -->
+    <link rel="stylesheet/less" type="text/css" href="../css/blogui.less" />
+    <!-- 引入最新稳定版Less.js -->
+    <script src="../js/less.min.js"></script>
+    <link rel="stylesheet" href="../css/view.css" />
+  </head>
 
-	<head>
-		<!-- 页面编码 -->
-		<meta charset="utf-8">
-		<!-- 移动设备优先 -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- 兼容Edge模式 -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!-- 极速模式 -->
-		<meta name="renderer" content="webkit">
-		<!-- 标题 -->
-		<title>BlogUi布局测试器</title>
-		<!-- 关键字 -->
-		<meta name="keywords" content="BlogUi,BlogUi布局测试器" />
-		<!-- 描述 -->
-		<meta name="description" content="BlogUi布局测试器" />
-		<!-- 作者 -->
-		<meta name="author" content="大火兔" />
-		<!-- 版权 -->
-		<meta name="copyright" content="版权所有 BlogUi All Rights Reserved" />
-		<!-- 搜索引擎索引向导 -->
-		<meta name="robots" content="all" />
-		<!-- 图标 -->
-	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
-		<!-- 引入BlogUi.less -->
-		<link rel="stylesheet/less" type="text/css" href="../css/blogui.less">
-		<!-- 引入最新稳定版Less.js -->
-		<script src="../js/less.min.js"></script>
-		<link rel="stylesheet" href="../css/view.css" />
-	</head>
+  <body>
+    <div class="header">BlogUi预览工具</div>
+    <div class="toolbar">
+      <div class="url">
+        <input
+          id="url"
+          type="text"
+          value="https://www.blogui.cn/"
+          class="input-url"
+        />
+      </div>
+      <div class="btns">
+        <div class="btn">xxl</div>
+        <div class="btn active">xl</div>
+        <div class="btn">lg</div>
+        <div class="btn">md</div>
+        <div class="btn">sm</div>
+        <div class="btn">xs</div>
+      </div>
+    </div>
+    <div class="view">
+      <div class="device xl">
+        <iframe src="https://www.blogui.cn/" frameborder="0"></iframe>
+      </div>
+    </div>
+  </body>
+  <script src="../js/jquery-1.12.4.min.js"></script>
+  <script>
+    $(function () {
+      var _pageurl = getQueryString("pageurl");
+      if (_pageurl.length > 0) {
+        $("#url").val(_pageurl);
+        viewurl(_pageurl);
+      }
+    });
 
-	<body>
-		<div class="header">BlogUi布局测试器</div>
-		<div class="toolbar">
-			<div class="url">
-				<input id="url" type="text" value="https://www.blogui.cn/" class="input-url" />
-			</div>
-			<div class="btns">
-				<div class="btn">xxl</div>
-				<div class="btn active">xl</div>
-				<div class="btn">lg</div>
-				<div class="btn">md</div>
-				<div class="btn">sm</div>
-				<div class="btn">xs</div>
-			</div>
-		</div>
-		<div class="view">
-			<div class="device xl"><iframe src="https://www.blogui.cn/" frameborder="0"></iframe></div>
-		</div>
-	</body>
-	<script src="../js/jquery-1.12.4.min.js"></script>
-	<script src="../js/blogui.js"></script>
-	<script>
-		$(function() {
-			var _pageurl = getQueryString("pageurl")
-			if(_pageurl.length > 0) {
-				$("#url").val(_pageurl);
-				viewurl(_pageurl);
-			}
-		});
+    $(".btns .btn").click(function () {
+      $(".btns .btn").attr("class", "btn");
+      $(this).addClass("active");
+      $(".view .device").attr("class", "device");
+      $(".view .device").addClass($(this).text());
+      viewurl($("#url").val());
+    });
 
-		$(".btns .btn").click(function() {
-			$(".btns .btn").attr("class", "btn");
-			$(this).addClass("active");
-			$(".view .device").attr("class", "device");
-			$(".view .device").addClass($(this).text());
-			viewurl($("#url").val());
-		});
+    function viewurl(_url) {
+      //如果没有带http或https则增加访问，否则直接访问
+      var reg = /(http|https):\/\/([\w.]+\/?)\S*/gi;
+      if (reg.test(_url) == false) {
+        _url = "https://" + $("#url").val();
+      } else {
+        _url = $("#url").val();
+      }
+      $(".view .device iframe").attr("src", _url);
+    }
 
-		function viewurl(_url) {
-			//如果没有带http或https则增加访问，否则直接访问
-			var reg = /(http|https):\/\/([\w.]+\/?)\S*/ig;
-			if(reg.test(_url) == false) {
-				_url = "https://" + $("#url").val();
-			} else {
-				_url = $("#url").val();
-			}
-			$(".view .device iframe").attr("src", _url);
-		}
-
-		function getQueryString(name) {
-			let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-			let r = window.location.search.substr(1).match(reg);
-			if(r != null) {
-				return decodeURIComponent(r[2]);
-			};
-			return null;
-		}
-	</script>
-
+    function getQueryString(name) {
+      let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+      let r = window.location.search.substr(1).match(reg);
+      if (r != null) {
+        return decodeURIComponent(r[2]);
+      }
+      return null;
+    }
+  </script>
 </html>
