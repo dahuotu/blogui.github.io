@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
   <!-- 图标 -->
-  <link rel="shortcut icon" href="/assets/favicon.ico" />
+  <link rel="shortcut icon" href="favicon.ico" />
   <!-- 想用哪个主题就取消注释 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css" /> -->
@@ -23,7 +23,7 @@
   <!-- 字体 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
   <!--Gitalk样式-->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" /> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
   <!--分享样式，远程CDN方式加载太慢，直接本地使用-->
   <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
   <link rel="stylesheet" href="js/share/share.min.css" />
@@ -41,7 +41,7 @@
       //如果觉得左侧大标题不好看可以使用一张Banner图片代替，name和logo只能选其1
       // logo: "assets/Banner.jpg",
       //源代码地址
-      repo: "https://gitee.com/dahuotu/BlogUi",
+      repo: "https://github.com/dahuotu/blogui.github.io.git",
       //默认首页
       homepage: "download.md",
       //自定义404错误页
@@ -105,9 +105,9 @@
       },
       //插件
       plugins: [
-        //在Gitee编辑
+        //在Git编辑
         EditOnGithubPlugin.create(
-          "https://gitee.com/dahuotu/BlogUi",
+          "https://github.com/dahuotu/blogui.github.io.git",
           null,
           function (file) {
               return "编辑";
@@ -123,25 +123,24 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
   <!-- <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script> -->
   <script src="js/share/social-share.min.js"></script>
-  <!-- 
   <script>
     //gitalk评论插件，国内使用较慢，有能力的最好自己实现
     const gitalk = new Gitalk({
-      clientID: "clientID",
-      clientSecret: "clientSecret",
-      repo: "代码仓库名称",
-      owner: "所有者",
-      admin: ["管理代码所有者"],
+      clientID: "3e7fff499b8e77daa715",
+      clientSecret: "f9e4cb94b8e523b37ebe3cac8209a248f23f7149",
+      repo: "blogui.github.io",
+      owner: "dahuotu",
+      admin: ["dahuotu"],
       title: window.location.hash.match(/#(.*?)([?]|$)/)[1],
       id: decodeURI(window.location.pathname),
       distractionFreeMode: false,
@@ -152,7 +151,6 @@
       }
     };
   </script>
-  -->
   <div class="social-share"></div>
 </body>
 

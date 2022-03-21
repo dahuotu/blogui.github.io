@@ -24,4 +24,4 @@
    + [响应式](/components/respond.md)
 * [更新日志](/log.md)
 * [主题插件](/theme.md)
-* [docsify使用教程](/docsify.md)
+<!-- * [docsify使用教程](/docsify.md) -->
