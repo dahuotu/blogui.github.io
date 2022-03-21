@@ -1,0 +1,75 @@
+<!--
+	作者：1979788761@qq.com
+	时间：2022-03-03
+	描述：按钮使用演示
+-->
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<!-- 页面编码 -->
+		<meta charset="utf-8">
+		<!-- 移动设备优先 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 兼容Edge模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 极速模式 -->
+		<meta name="renderer" content="webkit">
+		<!-- 标题 -->
+		<title>按钮使用演示</title>
+		<!-- 关键字 -->
+		<meta name="keywords" content="BlogUi,按钮使用演示" />
+		<!-- 描述 -->
+		<meta name="description" content="这是BlogUi按钮使用演示" />
+		<!-- 作者 -->
+		<meta name="author" content="大火兔" />
+		<!-- 版权 -->
+		<meta name="copyright" content="版权所有 BlogUi All Rights Reserved" />
+		<!-- 搜索引擎索引向导 -->
+		<meta name="robots" content="all" />
+		<!-- 图标 -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" type="image/svg+xml" href="favicon.ico" />
+		<!-- 引入BlogUi.less -->
+		<link rel="stylesheet/less" type="text/css" href="../css/blogui.less">
+		<!-- 引入最新稳定版Less.js -->
+		<script src="../js/less.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="panel">
+				<div class="body">
+					<h2>普通按钮</h2>
+					<button class="button">普通按钮</button>
+					<button class="button button-small">特小按钮</button>
+					<button class="button button-big">超大按钮</button>
+					<button class="button button-block">宽度自适应</button>
+					<br />
+					<br />
+					<h2>图标按钮</h2>
+					<button class="button"><i class="iconfont icon-download"></i>下载</button>
+					<button class="button"><i class="iconfont icon-copy"></i>复制</button>
+					<button class="button"><i class="iconfont icon-zan"></i>点赞</button>
+					<button class="button"><i class="iconfont icon-share"></i>分享</button>
+					<button class="button"><i class="iconfont icon-zanshang"></i>赞赏</button>
+					<button class="button"><i class="iconfont icon-user"></i>联系</button>
+					<br />
+					<br />
+					<h2>按钮状态</h2>
+					<!--html5 button标签方式-->
+					<button class="button" disabled="disabled"><i class="iconfont icon-download"></i>下载</button>
+					<!--html4 input方式-->
+					<input class="button" type="button" disabled="disabled" value="下载" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<!-- 引入兼容IE8的jQuery版本 -->
+	<script src="../js/jquery-1.12.4.min.js"></script>
+	<!-- 引入BlogUi框架Js -->
+	<script src="../js/blogui.js"></script>
+	<!-- 引入你的JS -->
+	<script src="../js/your.js"></script>
+
+</html>

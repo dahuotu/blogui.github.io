@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>BlogUi使用文档</title>
+  <meta name="keywords" content="BlogUi,BlogUi使用文档,拼图大前端,拼图响应式前端框架,大火兔" />
+  <meta name="description" content="BlogUi使用文档" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <!-- 图标 -->
+  <link rel="shortcut icon" href="/assets/favicon.ico" />
+  <!-- 想用哪个主题就取消注释 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dolphin.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" /> -->
+  <!-- 字体 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
+  <!--Gitalk样式-->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" /> -->
+  <!--分享样式，远程CDN方式加载太慢，直接本地使用-->
+  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+  <link rel="stylesheet" href="js/share/share.min.css" />
+</head>
+
+<body>
+  <div id="app">加载中...</div>
+  <!--添加Html-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script>
+    window.$docsify = {
+      el: "#app",
+      //左侧大标题
+      name: "BlogUi使用文档",
+      //如果觉得左侧大标题不好看可以使用一张Banner图片代替，name和logo只能选其1
+      // logo: "assets/Banner.jpg",
+      //源代码地址
+      repo: "https://gitee.com/dahuotu/BlogUi",
+      //默认首页
+      homepage: "download.md",
+      //自定义404错误页
+      notFoundPage: "_404.md",
+      //文档深度
+      maxLevel: 5,
+      //打开新的文档是否自动回到顶部
+      auto2top: true,
+      //主题主色
+      themeColor: "#0a8",
+      //开启封面
+      coverpage: true,
+      //开启顶部导航
+      loadNavbar: true,
+      //开启侧边栏
+      loadSidebar: true,
+      //文档标题深度
+      subMaxLevel: 5,
+      //开启页脚
+      loadFooter: true,
+      //搜索设置
+      search: {
+        maxAge: 86400000,
+        paths: "auto",
+        placeholder: "搜索",
+        noData: "抱歉没有找到相关内容",
+        depth: 6,
+      },
+      //回到顶部
+      scrollToTop: {
+        auto: true,
+        text: "Top",
+        right: 50,
+        bottom: 50,
+        offset: 300,
+      },
+      //复制代码
+      copyCode: {
+        buttonText: "复制",
+        errorText: "复制失败",
+        successText: "复制成功",
+      },
+      //统计字数
+      count: {
+        countable: true,
+        fontsize: "0.9em",
+        color: "#0a8",
+        language: "chinese",
+      },
+      //UML
+      plantuml: {
+        skin: "classic",
+      },
+      //Tab
+      tabs: {
+        persist: true,
+        sync: true,
+        theme: "classic",
+        tabComments: true,
+        tabHeadings: true,
+      },
+      //插件
+      plugins: [
+        //在Gitee编辑
+        EditOnGithubPlugin.create(
+          "https://gitee.com/dahuotu/BlogUi",
+          null,
+          function (file) {
+              return "编辑";
+          }
+        ),
+      ],
+    };
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+  <!-- <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script> -->
+  <script src="js/share/social-share.min.js"></script>
+  <!-- 
+  <script>
+    //gitalk评论插件，国内使用较慢，有能力的最好自己实现
+    const gitalk = new Gitalk({
+      clientID: "clientID",
+      clientSecret: "clientSecret",
+      repo: "代码仓库名称",
+      owner: "所有者",
+      admin: ["管理代码所有者"],
+      title: window.location.hash.match(/#(.*?)([?]|$)/)[1],
+      id: decodeURI(window.location.pathname),
+      distractionFreeMode: false,
+    });
+    window.onhashchange = function (event) {
+      if (event.newURL.split("?")[0] !== event.oldURL.split("?")[0]) {
+        location.reload();
+      }
+    };
+  </script>
+  -->
+  <div class="social-share"></div>
+</body>
+
+</html>

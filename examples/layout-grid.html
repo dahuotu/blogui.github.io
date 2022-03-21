@@ -1,0 +1,57 @@
+<!--
+	作者：1979788761@qq.com
+	时间：2021-12-31
+	描述：Grid布局之基础使用演示
+-->
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<!-- 页面编码 -->
+		<meta charset="utf-8">
+		<!-- 移动设备优先 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 兼容Edge模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 极速模式 -->
+		<meta name="renderer" content="webkit">
+		<!-- 标题 -->
+		<title>Grid布局之基础使用演示</title>
+		<!-- 关键字 -->
+		<meta name="keywords" content="BlogUi,Grid布局之基础使用演示" />
+		<!-- 描述 -->
+		<meta name="description" content="这是BlogUiGrid布局之基础使用演示" />
+		<!-- 作者 -->
+		<meta name="author" content="大火兔" />
+		<!-- 版权 -->
+		<meta name="copyright" content="版权所有 BlogUi All Rights Reserved" />
+		<!-- 搜索引擎索引向导 -->
+		<meta name="robots" content="all" />
+		<!-- 图标 -->
+	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+		<!-- 引入BlogUi.less -->
+		<link rel="stylesheet/less" type="text/css" href="../css/blogui.less">
+		<!-- 引入最新稳定版Less.js -->
+		<script src="../js/less.min.js"></script>
+	</head>
+
+	<body>
+		<!--使用默认的wrap布局先包一层-->
+		<div class="wrap">
+			<h3 class="-mq">grid默认为12，需要进行分割，这里演示不同设备下6:6的分割网格布局，直接浏览器内F12查看</h3>
+			<div class="row">
+				<h4>电脑</h4>
+				<div class="col-lg-6" style="background: #ddd;">x-6-desktop</div>
+				<div class="col-lg-6" style="background:#eee;">x-6-desktop</div>
+			</div>
+		</div>
+	</body>
+	<!-- 引入兼容IE8的jQuery版本 -->
+	<script src="../js/jquery-1.12.4.min.js"></script>
+	<!-- 引入BlogUi框架Js -->
+	<script src="../js/blogui.js"></script>
+	<!-- 引入你的JS -->
+	<script src="../js/your.js"></script>
+
+</html>

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<!-- 页面编码 -->
+		<meta charset="utf-8">
+		<!-- 移动设备优先 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 兼容Edge模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 极速模式 -->
+		<meta name="renderer" content="webkit">
+		<!-- 标题 -->
+		<title>BlogUi页面设计器</title>
+		<!-- 关键字 -->
+		<meta name="keywords" content="BlogUi,BlogUi页面设计器" />
+		<!-- 描述 -->
+		<meta name="description" content="BlogUi页面设计器" />
+		<!-- 作者 -->
+		<meta name="author" content="大火兔" />
+		<!-- 版权 -->
+		<meta name="copyright" content="版权所有 BlogUi All Rights Reserved" />
+		<!-- 搜索引擎索引向导 -->
+		<meta name="robots" content="all" />
+		<!-- 图标 -->
+	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+		<!-- 引入BlogUi.less -->
+		<link rel="stylesheet/less" type="text/css" href="../css/blogui.less">
+		<!-- 引入最新稳定版Less.js -->
+		<script src="../js/less.min.js"></script>
+		<link rel="stylesheet" href="../css/design.css" />
+	</head>
+
+	<body>
+		<div class="header">BlogUi页面设计器</div>
+		<div class="container">
+			<div class="components">
+				<div class="li">
+					<div class="head">组件</div>
+					<ul class="ul">
+						<li data-href="../components/panel.html">
+							panel 面板
+						</li>
+						<li>
+							组件1
+						</li>
+						<li>
+							组件1
+						</li>
+						<li>
+							组件1
+						</li>
+						<li>
+							组件1
+						</li>
+						<li>
+							组件1
+						</li>
+						<li>
+							组件1
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="li">
+					<div class="head">组件</div>
+					<ul class="ul">
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="li">
+					<div class="head">组件</div>
+					<ul class="ul">
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="li">
+					<div class="head">组件</div>
+					<ul class="ul">
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="li">
+					<div class="head">组件</div>
+					<ul class="ul">
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="li">
+					<div class="head">组件</div>
+					<ul class="ul">
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+						<li>
+							<a>1</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="editor">
+				<div class="toolbar"></div>
+				<div class="designer"></div>
+				<div class="foot">pos</div>
+			</div>
+			<div class="attribute">
+				<div class="tabs">
+					<div class="tab-pane">
+						<input type="radio" name="tab" id="tab01" checked />
+						<label class="tab-item" for="tab01">页面设置</label>
+						<div class="tab-content">页面设置</div>
+					</div>
+					<div class="tab-pane">
+						<input type="radio" name="tab" id="tab02" />
+						<label class="tab-item" for="tab02">属性设置</label>
+						<div class="tab-content">属性设置</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.12.4.min.js"></script>
+	<script src="../js/blogui.js"></script>
+	<script>
+		$(function() {
+
+		});
+		$(".components li").click(function() {
+			var href = $(this).attr("data-href");
+			$(".designer").load(href);
+		})
+	</script>
+
+</html>
