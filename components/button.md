@@ -15,6 +15,7 @@
 ```html
 <button class="button"><i class="icon-search"></i>搜索</button>
 ```
+[filename](https://www.blogui.cn/examples/component-button.html ':include :type=iframe')
 
 ### 功能按钮
 
