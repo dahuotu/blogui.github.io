@@ -97,7 +97,7 @@
 <span class="tag">默认标签</span>
 <span class="tag-round">胶囊标签</span>
 <h2>颜色标签</h2>
-<span class="tag bg-main">辅助色</span>
+<span class="tag bg-main">主色</span>
 <span class="tag bg-sub">辅助色</span>
 <span class="tag bg-back">背景色</span>
 <span class="tag bg-mix">融合色</span>

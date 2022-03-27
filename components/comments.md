@@ -2,7 +2,7 @@
 
 ### 评论列表
 
-> 这里展示的评论列表主要包含主评论和回复评论，默认主评论使用`item`样式控制，回复评论使用`li`样式控制。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-comments-list.html)
+> 这里展示的评论列表主要包含主评论和回复评论，默认主评论使用 `item` 样式控制，回复评论使用 `li` 样式控制。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-comments-list.html)
 
 ```html
 <div class="comments-list">
@@ -20,6 +20,7 @@
                 只如初见，顾惜邂逅情缘。那一瞥，是惊鸿素颜。半点轻砂，万种娇妍。卿若不负，浮华一世夜无眠。琵琶语，古道幽情，莫道黯然魂。
             </div>
         </div>
+        <div class="clear"></div>
     </div>
     <div class="item">
         <div class="face">
@@ -34,6 +35,7 @@
                 只如初见，顾惜邂逅情缘。那一瞥，是惊鸿素颜。半点轻砂，万种娇妍。卿若不负，浮华一世夜无眠。琵琶语，古道幽情，莫道黯然魂。
             </div>
         </div>
+        <div class="clear"></div>
     </div>
     <div class="item">
         <div class="face">
@@ -60,6 +62,7 @@
                             只如初见，顾惜邂逅情缘。那一瞥，是惊鸿素颜。半点轻砂，万种娇妍。卿若不负，浮华一世夜无眠。琵琶语，古道幽情，莫道黯然魂。
                         </div>
                     </div>
+                    <div class="clear"></div>
                 </div>
                 <div class="li">
                     <div class="face">
@@ -74,9 +77,11 @@
                             只如初见，顾惜邂逅情缘。那一瞥，是惊鸿素颜。半点轻砂，万种娇妍。卿若不负，浮华一世夜无眠。琵琶语，古道幽情，莫道黯然魂。
                         </div>
                     </div>
+                    <div class="clear"></div>
                 </div>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
 </div>
 ```
@@ -86,17 +91,18 @@
 > 发布评论，默认最多可以评论200字符并且BlogUi评论框会自动统计评论字数。具体示例：[查看示例](https://www.blogui.cn/design/view.html?pageurl=https://www.blogui.cn/examples/component-comments-box.html)
 
 ```html
-<form>
-    <div class="comments-box">
+<div class="comments-box">
+    <form>
         <textarea class="input" maxlength="200" placeholder="评论"></textarea>
         <div class="tools">
             <span class="num">0</span>/<span class="sum">200</span>
             <button type="submit" class="button">发表评论</button>
         </div>
-    </div>
-</form>
+    </form>
+</div>
 ```
 
+验证版本：version 1.0.1
 最后更新：2022-03-02
 
 ---

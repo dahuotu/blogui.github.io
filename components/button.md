@@ -98,6 +98,7 @@
 <input class="button" type="button" disabled="disabled" value="下载" />
 ```
 
+验证版本：version 1.0.1
 最后更新：2022-03-03
 
 ---

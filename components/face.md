@@ -30,6 +30,7 @@
 <img class="face-round face-border" width="150" height="150" src="..." alt="..." />
 ```
 
+验证版本：version 1.0.1
 最后更新：2022-02-03
 
 ---

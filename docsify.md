@@ -633,11 +633,11 @@ docsify serve
 
 **注意：**要是觉得自己填的不好或者填错了，没关系，这个后面是可以改的，如果网址无法访问可以搜一下Github Host修改，按照步骤来，不懂的可以在评论里留言。
 
-![创建应用](assets/20211229_225010_aHR0cHM6Ly9naXRlZS5jb20vd3VnZW5xaWFuZy9QaWN0dXJlQmVkL3Jhdy9tYXN0ZXIvTm90ZUJvb2svMjAyMDA1MTkxMTA2Mjc.jpg ":size=50%")
+![创建应用](assets/applicationsnew.jpg ":size=50%")
 
 * 注册完毕之后，会进入这个界面
 
-![获取ID&Secret](assets/20211229_225146_aHR0cHM6Ly9naXRlZS5jb20vd3VnZW5xaWFuZy9QaWN0dXJlQmVkL3Jhdy9tYXN0ZXIvTm90ZUJvb2svMjAyMDA1MTkxMTA3MjUucG5n.png ":size=50%")
+![获取ID&Secret](assets/getidsecret.png ":size=50%")
 
 在这里，你就能看到 `clientID` 和 `clientSecret` 啦，页面不要关闭，先记录一下这两个值，后面需要用到。
 

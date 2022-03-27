@@ -92,8 +92,8 @@
             </div>
             <div class="main row">
                 <!-- 可以根据自己的需求在这里调整比例 -->
-                <div class="col-lg-10">侧边栏</div>
-                <div class="col-lg-2">内容</div>
+                <div class="col-lg-10">内容</div>
+                <div class="col-lg-2">侧边栏</div>
             </div>
             <div class="footer">
                 <div>底部</div>
