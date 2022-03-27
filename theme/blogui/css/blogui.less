@@ -1637,8 +1637,8 @@ a {
 
 .notice .roll .list-y {
     /*垂直滚动*/
-    animation: move-y 10s linear infinite;
-    -webkit-animation: move-y 10s linear infinite;
+    animation: moveY 15s linear infinite;
+    -webkit-animation: moveY 15s linear infinite;
 }
 
 .notice .roll .list-y li {
@@ -1651,8 +1651,8 @@ a {
 .notice .roll .list-x {
     /*水平滚动*/
     list-style: none;
-    animation: move-x 10s linear infinite;
-    -webkit-animation: move-x 10s linear infinite;
+    animation: moveX 30s linear infinite;
+    -webkit-animation: moveX 30s linear infinite;
 }
 
 .notice .roll .list-x li {
@@ -1669,55 +1669,57 @@ a {
     animation-play-state: paused;
 }
 
-@-webkit-keyframes move-y {
-    0% {
+@keyframes moveY {
+    from {
         transform: translateY(0%);
-        -ms-transform: translateY(0%);
-        -webkit-transform: translateY(0%);
     }
-    100% {
-        transform: translateY(calc((100% - 30px)*-1));
-        -ms-transform: translateY(calc((100% - 30px)*-1));
-        -webkit-transform: translateY(calc((100% - 30px)*-1));
+    to {
+        transform: translateY(-100%);
     }
 }
 
-@keyframes move-y {
-    0% {
+@-moz-keyframes moveY {
+    from {
         transform: translateY(0%);
-        -ms-transform: translateY(0%);
-        -webkit-transform: translateY(0%);
     }
-    100% {
-        transform: translateY(calc((100% - 30px)*-1));
-        -ms-transform: translateY(calc((100% - 30px)*-1));
-        -webkit-transform: translateY(calc((100% - 30px)*-1));
+    to {
+        transform: translateY(-100%);
     }
 }
 
-@-webkit-keyframes move-x {
+@-webkit-keyframes moveY {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes moveX {
     0% {
         transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        -webkit-transform: translateX(0%);
     }
     100% {
-        transform: translateX(calc((100%)*-1));
-        -ms-transform: translateX(calc((100%)*-1));
-        -webkit-transform: translateX(calc((100%)*-1));
+        transform: translateX(-100%);
     }
 }
 
-@keyframes move-x {
+@-moz-keyframes moveX {
     0% {
         transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        -webkit-transform: translateX(0%);
     }
     100% {
-        transform: translateX(calc((100%)*-1));
-        -ms-transform: translateX(calc((100%)*-1));
-        -webkit-transform: translateX(calc((100%)*-1));
+        transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes moveX {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
     }
 }
 
@@ -2404,7 +2406,7 @@ a {
         font-style: normal;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        content: "\e610";
+        content: "\e613";
     }
     .aside {
         padding-left: 0;
@@ -2518,9 +2520,7 @@ a {
 
 @font-face {
     font-family: "iconfont";
-    src: url('iconfont.woff2?t=1648377254847') format('woff2'), 
-         url('iconfont.woff?t=1648377254847') format('woff'), 
-         url('iconfont.ttf?t=1648377254847') format('truetype');
+    src: url('iconfont.woff2?t=1648377254847') format('woff2'), url('iconfont.woff?t=1648377254847') format('woff'), url('iconfont.ttf?t=1648377254847') format('truetype');
 }
 
 .iconfont {
