@@ -1323,6 +1323,7 @@ a {
 .tabs .head {
     list-style: none;
     display: flex;
+    width: 100%;
 }
 
 .tabs .head li {
@@ -1333,6 +1334,8 @@ a {
     margin-right: 2px;
     cursor: default;
     border-bottom: 2px solid @container-border-color;
+    width: 48%;
+    float: left;
 }
 
 .tabs .head .checked {
@@ -1343,6 +1346,7 @@ a {
     list-style: none;
     border-radius: 0px @container-border-radius @container-border-radius @container-border-radius;
     background: @container-background-color;
+    clear: both;
 }
 
 .tabs .body>li {
@@ -1370,10 +1374,10 @@ a {
     padding: @container-padding;
     text-align: center;
     background: @container-background-color;
-    border-radius: @container-border-radius 0 0 @container-border-radius;
-    margin-bottom: 2px;
+    border-bottom: 2px solid @container-border-color;
     cursor: default;
     border-right: 2px solid @container-border-color;
+    border-radius: @container-border-radius 0 0 @container-border-radius;
 }
 
 .tabs-y .head .checked {
@@ -1382,9 +1386,11 @@ a {
 
 .tabs-y .body {
     list-style: none;
-    border-radius: 0px @container-border-radius @container-border-radius 0;
-    background: @container-background-color;
+    border-radius: 0px @container-border-radius @container-border-radius @container-border-radius;
     width: 80%;
+    float: left;
+    background: @container-background-color;
+    min-height: 180px;
 }
 
 .tabs-y .body li {
@@ -1632,6 +1638,7 @@ a {
 .notice .roll .list-y {
     /*垂直滚动*/
     animation: move-y 10s linear infinite;
+    -webkit-animation: move-y 10s linear infinite;
 }
 
 .notice .roll .list-y li {
@@ -1645,6 +1652,7 @@ a {
     /*水平滚动*/
     list-style: none;
     animation: move-x 10s linear infinite;
+    -webkit-animation: move-x 10s linear infinite;
 }
 
 .notice .roll .list-x li {
@@ -1661,22 +1669,55 @@ a {
     animation-play-state: paused;
 }
 
+@-webkit-keyframes move-y {
+    0% {
+        transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(calc((100% - 30px)*-1));
+        -ms-transform: translateY(calc((100% - 30px)*-1));
+        -webkit-transform: translateY(calc((100% - 30px)*-1));
+    }
+}
+
 @keyframes move-y {
     0% {
         transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -webkit-transform: translateY(0%);
     }
     100% {
-        /* 此处32px与上面设置的高度相对应 */
-        transform: translateY(calc((100% - 32px)*-1));
+        transform: translateY(calc((100% - 30px)*-1));
+        -ms-transform: translateY(calc((100% - 30px)*-1));
+        -webkit-transform: translateY(calc((100% - 30px)*-1));
+    }
+}
+
+@-webkit-keyframes move-x {
+    0% {
+        transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(calc((100%)*-1));
+        -ms-transform: translateX(calc((100%)*-1));
+        -webkit-transform: translateX(calc((100%)*-1));
     }
 }
 
 @keyframes move-x {
     0% {
         transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -webkit-transform: translateX(0%);
     }
     100% {
         transform: translateX(calc((100%)*-1));
+        -ms-transform: translateX(calc((100%)*-1));
+        -webkit-transform: translateX(calc((100%)*-1));
     }
 }
 
@@ -2477,8 +2518,9 @@ a {
 
 @font-face {
     font-family: "iconfont";
-    /* Project id  */
-    src: url('iconfont.ttf?t=1642674938914') format('truetype');
+    src: url('iconfont.woff2?t=1648377254847') format('woff2'), 
+         url('iconfont.woff?t=1648377254847') format('woff'), 
+         url('iconfont.ttf?t=1648377254847') format('truetype');
 }
 
 .iconfont {
@@ -2489,12 +2531,96 @@ a {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-calendar:before {
+    content: "\e615";
+}
+
+.icon-mobile:before {
+    content: "\e653";
+}
+
+.icon-up:before {
+    content: "\e645";
+}
+
+.icon-print:before {
+    content: "\e60a";
+}
+
+.icon-histogram:before {
+    content: "\e69b";
+}
+
+.icon-upload:before {
+    content: "\e635";
+}
+
+.icon-paste:before {
+    content: "\e63f";
+}
+
+.icon-message:before {
+    content: "\e657";
+}
+
+.icon-winopen:before {
+    content: "\e65a";
+}
+
+.icon-category:before {
+    content: "\e62c";
+}
+
+.icon-comment:before {
+    content: "\e60b";
+}
+
+.icon-favorite:before {
+    content: "\e60c";
+}
+
+.icon-sun:before {
+    content: "\e6e7";
+}
+
+.icon-zanshang:before {
+    content: "\e669";
+}
+
+.icon-right:before {
+    content: "\e610";
+}
+
+.icon-android:before {
+    content: "\e636";
+}
+
+.icon-link:before {
+    content: "\e89c";
+}
+
+.icon-moon:before {
+    content: "\e618";
+}
+
+.icon-wrong:before {
+    content: "\e613";
+}
+
+.icon-notification:before {
+    content: "\516c";
+}
+
+.icon-cut:before {
+    content: "\e617";
+}
+
 .icon-more:before {
-    content: "\f0141";
+    content: "\e600";
 }
 
 .icon-home:before {
-    content: "\f029d";
+    content: "\e601";
 }
 
 .icon-zan:before {
@@ -2514,7 +2640,7 @@ a {
 }
 
 .icon-mail:before {
-    content: "\e601";
+    content: "\e602";
 }
 
 .icon-history:before {
@@ -2526,7 +2652,7 @@ a {
 }
 
 .icon-yes:before {
-    content: "\e600";
+    content: "\e603";
 }
 
 .icon-weibo:before {
@@ -2542,7 +2668,7 @@ a {
 }
 
 .icon-warning:before {
-    content: "\e602";
+    content: "\e604";
 }
 
 .icon-refresh:before {
@@ -2642,7 +2768,7 @@ a {
 }
 
 .icon-diamond:before {
-    content: "\e604";
+    content: "\e605";
 }
 
 .icon-rocket:before {
@@ -2722,89 +2848,5 @@ a {
 }
 
 .icon-share:before {
-    content: "\e53c";
-}
-
-.icon-calendar:before {
-    content: "\e615";
-}
-
-.icon-mobile:before {
-    content: "\e653";
-}
-
-.icon-up:before {
-    content: "\e645";
-}
-
-.icon-print:before {
-    content: "\e603";
-}
-
-.icon-histogram:before {
-    content: "\e69b";
-}
-
-.icon-upload:before {
-    content: "\e635";
-}
-
-.icon-paste:before {
-    content: "\e63f";
-}
-
-.icon-message:before {
-    content: "\e657";
-}
-
-.icon-winopen:before {
-    content: "\e65a";
-}
-
-.icon-category:before {
-    content: "\e62c";
-}
-
-.icon-comment:before {
-    content: "\e605";
-}
-
-.icon-favorite:before {
-    content: "\e505";
-}
-
-.icon-sun:before {
-    content: "\e6e7";
-}
-
-.icon-zanshang:before {
-    content: "\e669";
-}
-
-.icon-right:before {
     content: "\e609";
-}
-
-.icon-android:before {
-    content: "\e636";
-}
-
-.icon-link:before {
-    content: "\e89c";
-}
-
-.icon-moon:before {
-    content: "\e618";
-}
-
-.icon-wrong:before {
-    content: "\e610";
-}
-
-.icon-notification:before {
-    content: "\e72f";
-}
-
-.icon-cut:before {
-    content: "\e613";
 }

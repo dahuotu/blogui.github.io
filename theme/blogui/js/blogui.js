@@ -2,11 +2,18 @@
  * BlogUi Javascript Code
  */
 /*选项卡*/
-$(".tabs .head li,.tabs-y .head li").click(function() {
-	$(".tabs .head li,.tabs-y .head li").removeClass("checked");
+$(".tabs .head li").click(function() {
+	$(".tabs .head li").removeClass("checked");
 	$(this).addClass("checked");
 	var chkId = $(this).attr("data-checked");
-	$(".tabs .body li,.tabs-y .body li").removeClass("checked");
+	$(".tabs .body li").removeClass("checked");
+	$(chkId).addClass("checked");
+});
+$(".tabs-y .head li").click(function() {
+	$(".tabs-y .head li").removeClass("checked");
+	$(this).addClass("checked");
+	var chkId = $(this).attr("data-checked");
+	$(".tabs-y .body li").removeClass("checked");
 	$(chkId).addClass("checked");
 });
 /*评论框*/
