@@ -22,6 +22,7 @@
    + [分页](/components/pagination.md)
    + [评论](/components/comments.md)
    + [响应式](/components/respond.md)
+* [博客主题](/theme.md)
+* [博客插件](/plugin.md)
 * [更新日志](/log.md)
-* [主题插件](/theme.md)
-* [docsify使用教程](/docsify.md)
+<!-- * [docsify使用教程](/docsify.md) -->

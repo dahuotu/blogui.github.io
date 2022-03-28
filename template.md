@@ -87,9 +87,11 @@
 
 **注意：** 如有特殊需求需要支持 `IE8` 的可以[联系我](mailto:1979788761@qq.com?subject=来自BlogUi网站的反馈&body=你好，我是BlogUi前端框架的用户，我有一些问题需要反馈和请教。)单独定制。毕竟某些政府单位还在使用IE7\IE8\IE9这些浏览器。国内目前仅支持 `IE8` 的前端框架[拼图响应式前端框架1.0](https://www.pintuer.com)。
 
+<!-- 
 ### Mata 标记使用
 
-页面头部<Mata... />标记的使用非常多，这里就不再做一一例举，需要了解的可以参考：[html meta 标记详解](http://www.dahuotu.com/docs/#/documents/html?id=mate标记详解)
+页面头部<Mata... />标记的使用非常多，这里就不再做一一例举，需要了解的可以参考：[html meta 标记详解](http://www.dahuotu.com/docs/#/documents/html?id=mate标记详解) 
+-->
 
 最后更新：2022-03-28
 
