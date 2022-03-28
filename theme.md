@@ -10,7 +10,7 @@
 
 ```css
 <!--引入BlogUi.less-->
-<link rel="stylesheet/less"type="text/css"href="css/blogui.less"/>
+<link rel="stylesheet/less" type="text/css" href="css/blogui.less"/>
 ```
 
 ### 更换主题
@@ -21,10 +21,10 @@
 
 ```css
 <!--引入BlogUi.less-->
-<link rel="stylesheet/less"type="text/css"href="css/blogui.less"/>
+<link rel="stylesheet/less" type="text/css" href="css/blogui.less"/>
 <!--替换成-->
 <!--引入BlogUi.less-->
-<link rel="stylesheet/less"type="text/css"href="css/pintuer.v1.less"/>
+<link rel="stylesheet/less" type="text/css" href="css/pintuer.v1.less"/>
 ```
 
 ### 自定义主题
