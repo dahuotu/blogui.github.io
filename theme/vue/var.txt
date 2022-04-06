@@ -1,0 +1,95 @@
+/*----步骤1：先确定风格，主要先确定以下元素配色----*/
+
+背景色=#fff
+tips:背景色即整体网页的背景色
+
+主色=#304455
+tips:主色即整体网页的主要色调，一般默认的字体颜色就是主要颜色
+
+强调色=#273849
+tips:强调即整体网页醒目提示用来强调的颜色，一般加粗的标题，提示颜色
+
+激活色=#42b983
+tips:激活色即用来明显的显示，但有一定动作才能激活，比如链接滑入、选中等
+
+背景=全局配置
+容器=面板、列表、菜单、面包屑
+
+
+/*----颜色相关---*/
+
+
+/*背景色*/
+
+@global-background-color: #fff;
+
+/*主色*/
+
+@global-main-color: #304455;
+
+/*强调色*/
+
+@global-strong-color: #273849;
+
+/*激活色*/
+
+@global-active-color: #42b983;
+
+/*黑色*/
+
+@global-black-color: #000;
+
+/*白色*/
+
+@global-white-color: #fff;
+
+/*灰色*/
+
+@global-gray-color: #eee;
+
+/*----字体相关---*/
+
+
+/*全局字体*/
+
+@global-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+
+/*主字体大小*/
+
+@global-font-size: 14px;
+
+/*强调字体大小*/
+
+@global-strong-size: 16px;
+
+/*标题字体大小*/
+
+@global-title-size: 18px;
+
+/*----容器相关---*/
+
+
+/*容器背景色*/
+
+@container-background-color: #fff;
+
+/*容器边框色*/
+
+@container-border-color: #eee;
+
+/*容器内边距*/
+
+@container-padding: 25px 35px;
+
+/*容器外边距*/
+
+@container-margin: 15px;
+
+/*容器阴影*/
+
+@container-box-shadow: none;
+
+/*容器圆角*/
+
+@container-border-radius: 2px;
+    
