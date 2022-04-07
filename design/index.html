@@ -3,19 +3,19 @@
 
 	<head>
 		<!-- 页面编码 -->
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 		<!-- 移动设备优先 -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- 兼容Edge模式 -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<!-- 极速模式 -->
-		<meta name="renderer" content="webkit">
+		<meta name="renderer" content="webkit" />
 		<!-- 标题 -->
 		<title>BlogUi页面设计器</title>
 		<!-- 关键字 -->
 		<meta name="keywords" content="BlogUi,BlogUi页面设计器" />
 		<!-- 描述 -->
-		<meta name="description" content="BlogUi页面设计器" />
+		<meta name="description" content="这是BlogUi页面设计器" />
 		<!-- 作者 -->
 		<meta name="author" content="大火兔" />
 		<!-- 版权 -->
@@ -23,13 +23,24 @@
 		<!-- 搜索引擎索引向导 -->
 		<meta name="robots" content="all" />
 		<!-- 图标 -->
-	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" type="image/svg+xml" href="favicon.ico" />
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcdn.net/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	      <script src="https://cdn.bootcdn.net/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	    <![endif]-->
 		<!-- 引入BlogUi.less -->
-		<link rel="stylesheet/less" type="text/css" href="../css/blogui.less">
-		<!-- 引入最新稳定版Less.js -->
+		<link rel="stylesheet/less" type="text/css" href="../css/blogui.less" />
+		<!-- 引入稳定版Less.js -->
 		<script src="../js/less.min.js"></script>
-		<link rel="stylesheet" href="../css/design.css" />
+		<!-- 设计器css -->
+		<link rel="stylesheet" type="text/css" href="../css/design.css" />
+		<!-- 引入兼容IE8的jQuery版本 -->
+		<script src="../js/jquery-1.12.4.min.js"></script>
+		<!-- 引入BlogUi框架Js -->
+		<script src="../js/blogui.js"></script>
+		<!-- 引入你的JS -->
+		<script src="../js/your.js"></script>
 	</head>
 
 	<body>
@@ -39,7 +50,7 @@
 				<div class="li">
 					<div class="head">组件</div>
 					<ul class="ul">
-						<li data-href="../components/panel.html">
+						<li data-href="../htmlreact/panel.html">
 							panel 面板
 						</li>
 						<li>

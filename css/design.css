@@ -1,3 +1,4 @@
+
 body {
 	font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, "微软雅黑", STHeitiSC-Light, simsun, "宋体", WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
 	font-size: 16px;
@@ -49,7 +50,6 @@ body {
 	text-align: left;
 	text-indent: 10px;
 	background: #fafafa;
-	margin-bottom: 15px;
 }
 
 .container .components .li .ul {
